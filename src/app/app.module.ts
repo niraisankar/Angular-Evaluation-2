@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MapComponentComponent } from './map-component/map-component.component';
+import { GaugeComponent } from './gauge/gauge.component';
+import { PieChartComponent } from './pie-chart/pie-chart.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MapComponentComponent,
+    GaugeComponent,
+    PieChartComponent,
   ],
   imports: [
     BrowserModule,

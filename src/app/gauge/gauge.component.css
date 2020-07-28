@@ -1,0 +1,9 @@
+#Gaugechartdiv{
+  width: 404px;
+  height: 268px;
+  border: 2px solid #2f2f37;
+  top: 262px;
+  position: absolute;
+  color:white;
+  font-weight: bold;
+}
